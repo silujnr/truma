@@ -1,0 +1,72 @@
+.team-section{
+    position: relative;
+    padding: 0 0 50px;
+}
+.folio-team{padding-top: 120px;}
+.folio-team .team-detail .designation:after{
+    background: #00a651;}
+.folio-team .team-detail h4 a:hover{
+    color: #00a651;
+}
+.folio-team .team-detail:before,
+.folio-team .team-detail:after{
+    background: #00a651;
+}
+.team-member{position: relative;margin-bottom: 30px;}
+.team-member img{width: 100%;height: auto;}
+.team-detail {
+    position: relative;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 16px 0 16px 14px;
+    border-left: none;
+    border-top: none;
+    background: #f3f3f3;
+}
+.team-detail .designation{
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    margin: 0 0 11px;
+}
+
+.team-detail h4{
+    font-size: 14px;
+    margin: 0;
+}
+.team-detail h4 a{
+    color: inherit;
+}
+.team-detail h4 a:hover{
+    color: #237a40;
+}
+.team-detail:after{
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    width: 0%;
+    height: 10px;
+    content: '';
+    background: #237a40;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.team-detail:before{
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    width: 10px;
+    height: 0%;
+    content: '';
+    background: #237a40;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.team-member:hover .team-detail:before{
+    height: calc(100% + 10px);
+}
+.team-member:hover .team-detail:after{
+    width: 100%;
+}

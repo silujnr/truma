@@ -1,0 +1,96 @@
+.homebanner .slick-slide img{width:100%;max-width:100%;}
+.homebanner .slick-slide{position: relative;}
+.flex-caption {text-align:left; 
+    bottom: 15px;
+    padding:3%;
+    position: absolute;
+    }
+	
+   
+.flex-caption p{color: #fff;
+    font-family:'Arial',sans serif;
+    font-size: 18px;
+    line-height: 43px;
+    margin-bottom: 35px;
+    padding-left: 55px;
+ }
+.flex-caption a.slider-c-btn {
+    background: #df3939 none repeat scroll 0 0;
+    border: 3px solid #aba8a8;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+.flex-caption .title {
+	
+	font-weight: bold;
+	font-size: 48px;
+	color: #fff;
+	line-height: 52px;
+
+}
+.flex-caption .sub-title {
+	font-weight: bold;
+	font-size: 48px;
+	color: #fff;
+	line-height: 52px;
+	
+}
+.flex-caption .description {
+	margin-top: 30px;
+	font-weight: 900;
+	font-size: 57px;
+	color: #00a651;
+	line-height: 52px;
+	margin-bottom: 30px;
+}
+
+
+.flex-caption .heading span{color:#fdc02d;}
+.flex-caption span.slider-icon {
+	font-family:'Arial',sans serif;
+	font-size: 16px;
+	color: #fff;
+	text-transform: capitalize;
+	position: relative;
+	font-weight: bold;
+	padding-left: 75px;
+	vertical-align: middle;
+	display: inline-block;
+	min-height: 60px;
+	line-height: 57px;
+}
+.flex-caption span.slider-icon:after{ background:url("../Homebanner/images/sliderarrow.png"); height:57px;width:57px;background-position:0 0;content:"";position:absolute;left:0;top:0;}
+.homebanner .slick-slide img {
+	width: 100%;
+	max-width: 100%;
+	display: inherit;
+}
+.banner-slide{position:relative;}
+
+@media all and (max-width:767px){
+	.flex-caption .sub-title, .flex-caption .title {
+		font-weight: bold;
+		font-size: 19px;
+		color: #fff;
+		line-height: 23px;
+		margin-bottom: 10px;
+	}
+	.flex-caption .description {
+		margin-top: 10px;
+		font-weight: 900;
+		font-size: 30px;
+		color: #00a651;
+		line-height: 39px;
+		margin-bottom: 10px;
+	}
+
+}
+@media all and (max-width:460px){
+	.flex-caption{display:none;}
+}

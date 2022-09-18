@@ -1,0 +1,25 @@
+
+.welcome-section{width:100%;text-align:center;padding:55px 0;}
+.welcome-section .welcome-content{
+    text-align:left;
+    padding:0%;
+}
+h3.sec-title {
+	font-size: 47px;
+	color: #201f20;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+h3.sec-title span{color:#00a651}
+p.sec-desc {
+	font-size: 19px;
+	line-height: 31px;
+	font-weight: 400;
+	margin: 0 0 20px;
+}
+.welcome-section .welcome-content .greenbtn{color:#00a651;}
+
+@media all and (max-width:575px){
+    
+}

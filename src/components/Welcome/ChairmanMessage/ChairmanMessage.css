@@ -1,0 +1,15 @@
+.ChairmanMessage-section{margin-bottom: 55px;}
+.ChairmanMessage-content p{margin-bottom:30px ;}
+
+.appointment-block{background: rgb(9,111,148);
+    background: linear-gradient(0deg, rgba(9,111,148,1) 0%, rgba(28,159,208,1) 100%); 
+    padding:30px;max-width:360px;margin-bottom:30px;width:100%;}
+.appointment-content-box{border:2px solid #fff;text-align:left;padding:0 15px 30px 15px;}
+.appointment-content-box .appointment-icon{width:100px; height:100px;margin-bottom: 20px;margin-top:-20px;}
+.appointment-content-box span.heading{font-size:27px;color:#fff; font-weight:400;margin-bottom:13px;display:inline-block;line-height:37px;letter-spacing:1px ;}
+.appointment-content-box p{font-size:18px;color:#fff;line-height:19px;margin-bottom:50px;font-weight:400;position:relative;}
+.appointment-content-box p:after{position:absolute;width:100px;height:2px;left:0;content:"";background:#fff;bottom:-17px;}
+
+@media all and (max-width:767px){
+    .ChairmanMessage-content {margin-bottom:50px ;}
+}

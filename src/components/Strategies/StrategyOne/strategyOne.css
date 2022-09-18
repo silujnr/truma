@@ -1,0 +1,44 @@
+.Strategy-section{position: relative;padding:0;}
+.Strategy-section .container{z-index:99;position:relative;}
+.Strategy-section:after{z-index:9;position:absolute;content:"";bottom:0;width:100%;height:20px;background:#fff;}
+.strategy-shape{position: absolute;right: 0;top: 0;}
+.Strategy-section .sub-title-2 span{background: #192833;color: #fff;}
+.Strategy-section .sec-title{color: #fff;}
+span.arrow-circle {position: absolute;right: 20px;top: 0;}
+.strategy-item {position: relative;padding: 7px;background: #fff;border-radius: 8px;}
+.st-thumb{position: relative;overflow: hidden;}
+.st-thumb:after{position: absolute;left: 0;bottom: 0;width: 100%;height: 60%;content: '';
+    
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(35,35,35,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(35,35,35,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(35,35,35,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#232323',GradientType=0 );
+    
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.st-thumb img{
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.strategy-item:hover img {
+    transform: scale(1.1) rotate(-1.5deg);
+    -moz-transform: scale(1.1) rotate(-1.5deg);
+    -webkit-transform: scale(1.1) rotate(-1.5deg);
+    -ms-transform: scale(1.1) rotate(-1.5deg);
+    -o-transform: scale(1.1) rotate(-1.5deg);
+}
+
+.st-details {position: absolute;left: 0;right: 0;bottom: 30px;z-index: 3;width: 100%;text-align: left;padding: 0 20px;}
+.st-details span {display: block;font-size: 20px;line-height: .8;font-weight: bold;color: #fff;margin-bottom: 8px;}
+.st-details p{font-size: 18px;color: #fff;margin: 0;}
+.st-details p a{color: inherit;}
+.st-details p a:hover{color: #00a651;}
+@media all and (max-width:767px){
+    .Strategy-section::after {height: 53px;}
+    .Strategy-section .strategy-item{margin-bottom:20px ;}  
+}
