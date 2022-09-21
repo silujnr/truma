@@ -13,7 +13,7 @@ const ContactSidebar = ({ contactInfo }) => {
             <div className="contct-box">
                 <i className="fa fa-envelope"></i>
                 <h3>Email Us</h3>
-                <p>
+                <p className='text-break'>
                     {contactInfo.emailOne}<br />
                     {contactInfo.emailTwo}
                 </p>

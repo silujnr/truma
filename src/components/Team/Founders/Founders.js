@@ -116,7 +116,7 @@ const Founders = () => {
                                     <div className="team-member">
                                         <img src={founder?.image} alt="" />
                                         <div className="team-detail">
-                                            <p className="designation">{founder?.designation}</p>
+                                            {/* <p className="designation">{founder?.designation}</p> */}
                                             <h4><Link to={founder?.link}>{founder?.name}</Link></h4>
                                         </div>
                                     </div>

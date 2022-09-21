@@ -2270,7 +2270,7 @@ footer.f3-color .call-to-action .cta-item.right h4 {
     background-repeat: no-repeat;
     background-position: center center;
 }
-.page-banner:after{
+.page-banner:before{
     position: absolute;
     left: 0;
     top: 0;
@@ -2281,7 +2281,6 @@ footer.f3-color .call-to-action .cta-item.right h4 {
 }
 .page-content {
     position: relative;
-    z-index: 3;
    
 }
 .bread-crumbs{

@@ -65,26 +65,33 @@ const slidersettings = {
     autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    dots: false,
-    arrows: true,
+    dots: true,
     infinite: true,
     centerMode: false, 
      responsive: [
+ 
         {
-            breakpoint: 640,
+            breakpoint: 1024,
             settings: {
+                dots: true,
+
                 arrows: false,
             }
         },
         {
-            breakpoint: 1024,
-            settings: {
-                arrows: false
-                
-                ,
+            breakpoint: 640,
+            settings: {    dots: true,
+
+                arrows: false,
             }
         },
+        {
+            breakpoint: 600,
+            settings: {    dots: true,
 
+                arrows: false,
+            }
+        }
     ]
    
 };

@@ -16,7 +16,7 @@ const FooterOne = () => {
                 <div className="row top-footer">
                 <div className="col-lg-4 text-white">
                     <span className="font-weight-bold">Call Us</span>
-                    <p>91-1234567890</p>
+                    <p> +91 9037701777</p>
                 </div>
                 <div className="col-lg-8 text-white d-lg-flex justify-content-between">
                     <div>

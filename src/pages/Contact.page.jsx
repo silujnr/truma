@@ -4,11 +4,11 @@ import ContactForm from '../components/ContactForm/ContactForm';
 import ContactSidebar from '../components/ContactSidebar/ContactSidebar';
 
 const contactInfo = {
-    numberOne: "+00 125 456 888",
-    numberTwo: "+00 125 456 888",
-    emailOne: "contact@abc.com",
-    emailTwo: "contact@abc.com",
-    locationOne: "Police Club, Pavamani Road, Calicut",
+    numberOne: "+91 90377 01777",
+    numberTwo: "",
+    emailOne: "traumacarekozhikode@gmail.com",
+    emailTwo: "",
+    locationOne: "Near Police Club, Pavamani Road, Kozhikode 673001",
     locationTwo: ""
 };
 
