@@ -19,84 +19,84 @@ const founder = [
     {
         id: 1,
         name: 'E. K. Radhakrishnan',
-        designation: 'Founder',
+        designation: '',
         image: f1,
         link: '/'
     },
     {
         id: 2,
         name: 'John Jacob',
-        designation: 'CEO',
+        designation: '',
         image: f2,
         link: '/'
     },
     {
         id: 3,
         name: 'Adv. Pradip Kumar C. M.',
-        designation: 'Consultant',
+        designation: 'Commandent Retd',
         image: f3,
         link: '/'
     },
     {
         id: 4,
         name: 'P. M. Janardhanan',
-        designation: 'Consultant',
+        designation: '',
         image: f4,
         link: '/'
     },
     {
         id: 5,
         name: 'K. T. Raghunath',
-        designation: 'Consultant',
+        designation: '',
         image: f5,
         link: '/'
     },
     {
         id: 6,
         name: 'Dr. Lokeshan Nair',
-        designation: 'Consultant',
+        designation: '',
         image: f6,
         link: '/'
     },
     {
         id: 7,
         name: 'Dr. K. N. Pillai',
-        designation: 'Consultant',
+        designation: '',
         image: f7,
         link: '/'
     },
     {
         id: 8,
         name: 'Satheeshan P. K.',
-        designation: 'Consultant',
+        designation: '',
         image: f8,
         link: '/'
     },
     {
         id: 9,
         name: 'WG.CDR. Chandrasekhar',
-        designation: 'Consultant',
+        designation: '',
         image: f9,
         link: '/'
     },
     {
         id: 10,
         name: 'N. GopalaKrishnan ',
-        designation: 'Consultant',
+        designation: '',
         image: f10,
         link: '/'
     },
     {
         id: 11,
         name: 'Dr. K. G. Alexander',
-        designation: 'Consultant',
+        designation: '',
         image: f11,
         link: '/'
     },
     {
         id: 12,
         name: 'Dr. T. K. Jayaraj',
-        designation: 'Consultant',
+        designation: '',
         image: f12,
         link: '/'
     }
@@ -116,7 +116,7 @@ const Founders = () => {
                                     <div className="team-member">
                                         <img src={founder?.image} alt="" />
                                         <div className="team-detail">
-                                            {/* <p className="designation">{founder?.designation}</p> */}
+                                            <p className="designation">{founder?.designation}</p>
                                             <h4><Link to={founder?.link}>{founder?.name}</Link></h4>
                                         </div>
                                     </div>
