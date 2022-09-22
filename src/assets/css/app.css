@@ -10,6 +10,7 @@
  */
 
 /*---- Hero Banner Section ------*/
+p{text-align: justify;}
 .primary-color{color:#00a651}
 .hero-banner-01{
     position: relative;

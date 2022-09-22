@@ -18,16 +18,12 @@ const Welcome = () => {
                                     <Link className="greenbtn" to="/about">About us <i className="fa fa-arrow-right" aria-hidden="true"></i></Link>
                                 </div>
                                 <div className='col-md-8 col-sm-12'>
-                                    <p className="sec-desc">Trauma care is the care given to patients with severe injury primarily caused by automobile crashes, knife wounds, falls, burns etc. The survival of a trauma patient is dependent on immediate response and medical care at the scene of the injury, rapid transport from the scene of the injury to a qualified trauma medical facility, qualified trauma medical facilities capable of delivering immediate medical care and ongoing treatment for the injured person. Unlike other medical problems, a trauma victim’s care cannot be reviewed. The survival of the trauma patient is wholly influenced by the decisions taken in the most expedient manner.</p>
+                                <p className="sec-desc">Trauma Care Kozhikode (TRACK) pioneered educating “First Respondents” to shift accident victims without losing time, and without causing further injury, to Hospitals through its volunteer training camps. These volunteers are made free of legal complications which could follow. In association with the Police Department, Motor Vehicles Department & Medical Professionals, “TRACK” has been training volunteers in Basic Life Support (BLS), Road Safety & Situational Leadership since 1998.</p>
+
                                 </div>
                             </div>
                             
-                            <div className='row mb-3'>
-                                <div>
-                                <p className="sec-desc">Trauma Care Kozhikode (TRACK) pioneered educating “First Respondents” to shift accident victims without losing time, and without causing further injury, to Hospitals through its volunteer training camps. These volunteers are made free of legal complications which could follow. In association with the Police Department, Motor Vehicles Department & Medical Professionals, “TRACK” has been training volunteers in Basic Life Support (BLS), Road Safety & Situational Leadership since 1998.</p>
-                                </div>
 
-                            </div>
                             
                             <div className='row mb-4 align-items-center'>
                                 <div className='col-md-6'>
