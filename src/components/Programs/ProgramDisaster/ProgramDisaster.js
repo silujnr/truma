@@ -10,28 +10,28 @@ const ProgramDisasters = [
     {
         id: 1,
         name: 'Disaster 1',
-        designation: 'Peogram',
+        designation: 'Program',
         image: PROGRAMDISASTER1,
         link: '/'
     },
     {
         id: 2,
         name: 'Disaster 2',
-        designation: 'Peogram',
+        designation: 'Program',
         image: PROGRAMDISASTER2,
         link: '/'
     },
     {
         id: 3,
         name: 'Disaster 3',
-        designation: 'Peogram',
+        designation: 'Program',
         image: PROGRAMDISASTER3,
         link: '/'
     },
     {
         id: 4,
         name: 'Disaster 4',
-        designation: 'Peogram',
+        designation: 'Program',
         image: PROGRAMDISASTER4,
         link: '/'
     }

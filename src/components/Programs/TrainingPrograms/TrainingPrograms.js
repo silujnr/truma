@@ -18,28 +18,28 @@ const TrainingProgram = [
     {
         id: 1,
         name: 'FA Training',
-        designation: 'Peogram',
+        designation: 'Program',
         image: PROGRAMDISASTER1,
         link: '/'
     },
     {
         id: 2,
-        name: 'Fire Fiting Training',
-        designation: 'Peogram',
+        name: 'Fire Fighting Training',
+        designation: 'Program',
         image: PROGRAMDISASTER2,
         link: '/'
     },
     {
         id: 3,
         name: 'Traning',
-        designation: 'Peogram - 1',
+        designation: 'Program - 1',
         image: PROGRAMDISASTER3,
         link: '/'
     },
     {
         id: 4,
         name: 'Traning',
-        designation: 'Peogram - 2',
+        designation: 'Program - 2',
         image: PROGRAMDISASTER4,
         link: '/'
     }
@@ -47,7 +47,7 @@ const TrainingProgram = [
     {
         id: 6,
         name: 'Traning',
-        designation: 'Peogram - 3',
+        designation: 'Program - 3',
         image: PROGRAMDISASTER5,
         link: '/'
     }
@@ -55,7 +55,7 @@ const TrainingProgram = [
     {
         id: 6,
         name: 'Traning',
-        designation: 'Peogram - 4',
+        designation: 'Program - 4',
         image: PROGRAMDISASTER6,
         link: '/'
     }
@@ -65,28 +65,28 @@ const Roadsafety = [
     {
         id: 1,
         name: 'ROAD SAFETY ',
-        designation: 'Peogram - 1',
+        designation: 'Program - 1',
         image: roadsafety1,
         link: '/'
     },
     {
         id: 2,
         name: 'ROAD SAFETY',
-        designation: 'Peogram - 2',
+        designation: 'Program - 2',
         image: roadsafety2,
         link: '/'
     },
     {
         id: 3,
         name: 'ROAD SAFETY',
-        designation: 'Peogram - 3',
+        designation: 'Program - 3',
         image: roadsafety3,
         link: '/'
     },
     {
         id: 4,
         name: 'ROAD SAFETY',
-        designation: 'Peogram - 4',
+        designation: 'Program - 4',
         image: roadsafety4,
         link: '/'
     }
