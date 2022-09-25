@@ -8,15 +8,8 @@ const NewsSidebar = () => {
     return (
         <div className="col-lg-4 col-md-12">
             <div className="news-sidebar">
-                
-
                 <TrendingPost />
-
-               
-
                 <Videolink />
-
-               
                 <Membershipbox />
             </div>
         </div>

@@ -9,7 +9,7 @@ const Membershipbox = () => {
                             <div className="appointment-icon">
                             <img src={membericon} alt="" />
                             </div>
-                            <span className="heading">Trauma Care Calicut</span>
+                            <span className="heading">Trauma Care Kozhikode</span>
                             <p>Become a Member</p>
                             
                             <Link to="/memberships" className="quomodo-btn w-100">Membership Now</Link>

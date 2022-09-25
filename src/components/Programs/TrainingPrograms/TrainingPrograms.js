@@ -17,28 +17,28 @@ import roadsafety4 from '../TrainingPrograms/images/roadsafety/PROGRAM-ROAD-SAFE
 const TrainingProgram = [
     {
         id: 1,
-        name: 'FA Training',
+        name: 'Basic Life Support',
         designation: 'Program',
         image: PROGRAMDISASTER1,
         link: '/'
     },
     {
         id: 2,
-        name: 'Fire Fighting Training',
+        name: 'Basic Life Support',
         designation: 'Program',
         image: PROGRAMDISASTER2,
         link: '/'
     },
     {
         id: 3,
-        name: 'Traning',
+        name: 'Road Safety Training',
         designation: 'Program - 1',
         image: PROGRAMDISASTER3,
         link: '/'
     },
     {
         id: 4,
-        name: 'Traning',
+        name: 'Road Safety Training',
         designation: 'Program - 2',
         image: PROGRAMDISASTER4,
         link: '/'
@@ -46,7 +46,7 @@ const TrainingProgram = [
     ,
     {
         id: 6,
-        name: 'Traning',
+        name: 'Road Safety Training',
         designation: 'Program - 3',
         image: PROGRAMDISASTER5,
         link: '/'

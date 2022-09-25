@@ -37,7 +37,7 @@ const FooterOne = () => {
                     <Link className="footer-logo mb-4 d-block" to="/">
                             <img src={logo} alt="" />
                         </Link>
-                        <p className="text-white"> Trauma Care Kozhikode is an independent, non-profit organisation functioning above political, communal and economic interest. </p>
+                        <p className="text-white text-left"> Trauma Care Kozhikode is an independent, non-profit organisation functioning above political, communal and economic interest. </p>
                     </div>
                     <div className="col-lg-6 col-md-6">
                         {/* <!-- Navigation Menu Start --> */}
@@ -45,11 +45,11 @@ const FooterOne = () => {
                             <h3 className="widget-title">Quick Menu</h3>
                             <div className="d-flex">
                             <ul className="w-50">
+                            <li><Link to="/contact">Contact Us</Link></li>
                                 <li><Link to="/about">About Us</Link></li>
                                 <li><Link to="/programs">Programes</Link></li>
                                 <li><Link to="/donations">Donate</Link></li>
                                 <li><Link to="/anappeal">An Appeal</Link></li>
-                                <li><Link to="/contact">Contact Us</Link></li>
                             </ul>
                             <ul className="w-50">
                                 <li><Link to="/memberships">Memberships</Link></li>

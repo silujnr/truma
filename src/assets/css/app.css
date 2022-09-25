@@ -2311,7 +2311,7 @@ footer.f3-color .call-to-action .cta-item.right h4 {
     background: #00a651;
 }
 .page-content h2{
-    font-size:45px;
+    font-size:40px;
     color: #fff;
     margin: 0;
 }
@@ -3594,4 +3594,9 @@ blockquote p{
 @media all and (max-width:767px){
 h3.sec-title {
     font-size: 27px!important;}
+}
+
+.text-danger {
+    color: #dc3545!important;
+    font-size: 13px;
 }

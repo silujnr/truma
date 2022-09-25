@@ -33,11 +33,12 @@
     border-top: none;
     background: #f3f3f3;
 }
-.team-detail .designation{
-    font-size: 16px;
+.team-detail .designation {
+    font-size: 13px;
     line-height: 20px;
     font-weight: 400;
-    margin: 0 0 11px;
+    margin: 0 0 5px;
+    color: #898787;
 }
 /* .team-detail .designation:after{
     position: absolute;
@@ -49,7 +50,7 @@
     background: #237a40;
 } */
 .team-detail h4{
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
 }
 .team-detail h4 a{

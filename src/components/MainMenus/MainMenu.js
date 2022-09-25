@@ -10,16 +10,16 @@ const menus = [
     },
     {
         id: 2,
-        linkText: 'Offcial',
+        linkText: 'Official',
         link: '/official',
-        child:true,
-        icon: 'angle-down',
-        submenu: [
-            {
-                id: 12,
-                link: 'ourteam',
-                linkText: 'Our Team'
-            },]
+        child:false,
+        //icon: 'angle-down',
+        // submenu: [
+        //     {
+        //         id: 12,
+        //         link: 'ourteam',
+        //         linkText: 'Our Team'
+        //     },]
     },
     {
         id: 3,

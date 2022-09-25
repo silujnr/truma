@@ -7,7 +7,7 @@
 }
 .news-section{
     position: relative;
-    padding: 118px 0 70px;
+    padding: 118px 0 0px;
     
 }
 
@@ -15,7 +15,7 @@
 	background:#f4f4f4;
 	position: absolute;
 	width: 100%;
-	height: 118px;
+	height: 119px;
 	content: "";
     top: 0;
     content:"";

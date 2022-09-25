@@ -14,8 +14,8 @@ const Welcome = () => {
 
                             <div className='row mb-3'>
                                 <div className='col-md-4 col-sm-12'>
-                                    <h3 className="sec-title"> Welcome to <span>Trauma Care</span> Calicut</h3>
-                                    <Link className="greenbtn" to="/about">About us <i className="fa fa-arrow-right" aria-hidden="true"></i></Link>
+                                    <h3 className="sec-title"> Welcome to <span>Trauma Care</span> KOZHIKODE (TRACK)</h3>
+                                    <Link className="greenbtn" to="/official">About us <i className="fa fa-arrow-right" aria-hidden="true"></i></Link>
                                 </div>
                                 <div className='col-md-8 col-sm-12'>
                                 <p className="sec-desc">Trauma Care Kozhikode (TRACK) pioneered educating “First Respondents” to shift accident victims without losing time, and without causing further injury, to Hospitals through its volunteer training camps. These volunteers are made free of legal complications which could follow. In association with the Police Department, Motor Vehicles Department & Medical Professionals, “TRACK” has been training volunteers in Basic Life Support (BLS), Road Safety & Situational Leadership since 1998.</p>
