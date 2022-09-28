@@ -9,17 +9,10 @@ const ThemeRoute = ({ children, theme, ...rest }) => {
             {
                 theme === 'theme-1' &&
                 <>
-                    {/* Header Section */}
                     <HeaderOne />
                 </>
             }
-            <Route
-                {...rest}
-            // render={() => (
-            //     children
-            // )}
-            />
-
+            <Route {...rest} />
             {
                 theme === 'theme-1' &&
             
