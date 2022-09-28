@@ -15,12 +15,9 @@ const About = lazy(() => import('../pages/About.page'));
 const News = lazy(() => import('../pages/News.page'));
 const SingleNews = lazy(() => import('../pages/SingleNews.page'));
 const NotFound = lazy(() => import('../pages/Page404.page'));
-const Anappeal = lazy(() => import('../pages/Anappeal.page'));
 const Announcement = lazy(() => import('../pages/Announcement.page'));
 const Affiliations = lazy(() => import('../pages/Affiliations.page'));
 const OfficeBearers = lazy(() => import('../pages/OfficeBearers.page'));
-const Recognitions = lazy(() => import('../pages/Recognitions.page'));
-const Ourteam = lazy(() => import('../pages/Ourteam.page'));
 
 const routes = [
     {
@@ -119,14 +116,7 @@ const routes = [
         authentication: false,
         theme: "theme-1"
     },
-   {
-        name: 'An Appeal',
-        path: '/anappeal',
-        exact: true,
-        component: Anappeal,
-        authentication: false,
-        theme: "theme-1"
-    },
+   
     {
         name:'Announcement',
         path:'/announcement',
@@ -150,24 +140,7 @@ const routes = [
         component: OfficeBearers,
         authentication: false,
         theme: "theme-1"
-    },
-    {
-        name:'Recognitions',
-        path:'/recognitions',
-        exact: true,
-        component: Recognitions,
-        authentication: false,
-        theme: "theme-1"
     },{
-        name:'Ourteam',
-        path:'/Ourteam',
-        exact: true,
-        component: Ourteam,
-        authentication: false,
-        theme: "theme-1"
-    },
-    
-     {
         name: 'NotFound',
         path: '/*',
         exact: false,
