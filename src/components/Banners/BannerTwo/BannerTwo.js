@@ -2,6 +2,7 @@ import React from 'react'
 import pageBanner from '../../../assets/images/page-banner.jpg';
 import Breadcrumb from '../../Breadcrumb/Breadcrumb';
 
+import '../../Sponsor/Sponsor.css';
 
 
 const BannerTwo = ({ pageTitle = '', title = '' }) => {
