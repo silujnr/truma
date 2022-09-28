@@ -6,6 +6,7 @@ import slidetwo from  '../Homebanner/images/slideshow/slideshow02.jpg'
 import slidethree from  '../Homebanner/images/slideshow/slideshow03.jpg'
 import slidefour from  '../Homebanner/images/slideshow/slideshow04.jpg'
 import slidefive from  '../Homebanner/images/slideshow/slideshow05.jpg'
+import '../../Sponsor/Sponsor.css';
 
 import Slider from "react-slick";
 const images = [
