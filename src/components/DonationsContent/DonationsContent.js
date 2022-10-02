@@ -1,4 +1,4 @@
-import DonationImg1 from '../../components/Gallery/images/mainimage/GALLERY-PAGE-10.jpg';
+import DonationImg1 from '../../../src/assets/images/home/about.png';
 
 import React from 'react'
 const DonationsContent = () => {
@@ -9,7 +9,7 @@ const DonationsContent = () => {
                     <div className="col-lg-6 col-md-6">
                         {/* <!-- About Image Start --> */}
                         <div className="about-thumb">
-                            <img className='shadow mb-2' src={DonationImg1} alt="" />
+                            <img className='mb-4' src={DonationImg1} alt="" width="70%"/>
                            
                         </div>
                         {/* <!-- About Image End --> */}
@@ -24,13 +24,8 @@ const DonationsContent = () => {
                             
 <p>Contributions & Donations should be given with due respect for the wishes and authority of the recipient, and in conformity with government policies.</p>
 <p>Contributions and Donations can be made in the form of funds, support items, equipment, venue sponsorships, event sponsorships etc. that can be discussed with ‘TRACK’ team and confirmed</p>
-
-
-
-                           
-                            
                         </div>
-                        {/* <!-- About Content End --> */}
+                       
                     </div>
                 </div>
             <div className="row">
@@ -47,13 +42,3 @@ const DonationsContent = () => {
 };
 
 export default DonationsContent;
-
-
-
-
-
-
-
-
-
-

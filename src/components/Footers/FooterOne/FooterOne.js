@@ -35,7 +35,7 @@ const FooterOne = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-4">
                     <Link className="footer-logo mb-4 d-block" to="/">
-                            <img src={logo} alt="" />
+                            <img src={logo} alt="" width="100px" />
                         </Link>
                         <p className="text-white text-left"> Trauma Care Kozhikode is an independent, non-profit organisation functioning above political, communal and economic interest. </p>
                     </div>
@@ -48,14 +48,14 @@ const FooterOne = () => {
                             <li><Link to="/contact">Contact Us</Link></li>
                                 <li><Link to="/about">About Us</Link></li>
                                 <li><Link to="/programs">Programes</Link></li>
-                                <li><Link to="/donations">Donate</Link></li>
+                                
                             </ul>
                             <ul className="w-50">
                                 <li><Link to="/memberships">Memberships</Link></li>
                                 <li><Link to="/donations">Donations</Link></li>
                                 <li><Link to="/gallery">Gallery</Link></li>
                                 <li><Link to="/news">News</Link></li>
-                                <li><Link to="/announcement">Announcement</Link></li>
+                                
                             </ul>
                             </div>
                         </aside>
@@ -67,8 +67,8 @@ const FooterOne = () => {
                             <h3 className="widget-title">Others</h3>
                             <ul>
                                 <li><Link to="/units">Units</Link></li>
-                                <li><Link to="/affiliations">Affiliations</Link></li>
-                                <li><Link to="/officeBearers">Office Bearers</Link></li>
+                                <li><Link to="/announcement">Announcement</Link></li>
+                                <li><Link to="/Official">Official</Link></li>
                                 <li><Link to="/activities">Activities</Link></li>
                             </ul>
                         </aside>
@@ -87,7 +87,7 @@ const FooterOne = () => {
                     <div className="col-lg-12">
                         <div className="copyright d-lg-flex justify-content-between">
 
-                        <div><p>Copyright © 2022. All rights reserved by Trauma Care.</p></div>
+                        <div><p>Copyright © 2022. All rights reserved by Trauma Care Kozhikode.</p></div>
                            <div>
                             <span className="text-white mr-2">Follow Us:</span>
                                 <ul>
