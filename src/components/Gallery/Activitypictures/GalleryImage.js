@@ -1,6 +1,6 @@
 import mainimg1 from "../images/mainimage/GALLERY-PAGE-1.jpeg";
 import mainimg2 from "../images/mainimage/GALLERY-PAGE-2.jpeg";
-import mainimg3 from "../images/mainimage/GALLERY-PAGE-3.jpeg";
+import mainimg3 from "../images/mainimage/GALLERY-PAGE-3.jpg";
 import mainimg4 from "../images/mainimage/GALLERY-PAGE-4.jpeg";
 import mainimg5 from "../images/mainimage/GALLERY-PAGE-5.jpeg";
 import mainimg6 from "../images/mainimage/GALLERY-PAGE-6.jpeg";
