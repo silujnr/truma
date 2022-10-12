@@ -21,7 +21,8 @@ const HeaderOne = () => {
                     
                     <div className="col position-relative p-0">
                         <div className="top-header-bar">
-                            <p> <i className="fa fa-clock-o" aria-hidden="true"></i> Registered under the Societies Registration Act XXI of 1860 No. 384/1998.</p>
+                            <p className="text-center"> <i className="fa fa-clock-o" aria-hidden="true"></i> Registered under the Societies Registration Act XXI of 1860 No. 384/1998.<br/> NITI AYOG Registration No. KL/2018/0198482</p>
+                            
                             <span className="header-phone"><span><i className="fa fa-phone" aria-hidden="true"></i> 9037701777</span></span>
                         </div>
                         <nav className="navbar navbar-expand-lg">

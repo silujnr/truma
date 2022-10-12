@@ -1,21 +1,22 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import './welcome.css';
-import img1 from '../Gallery/images/mainimage/GALLERY-PAGE-71.jpg';
-import img2 from '../Gallery/images/mainimage/GALLERY-PAGE-51.jpg';
+//import img1 from '../Gallery/images/mainimage/GALLERY-PAGE-71.jpg';
+//import img2 from '../Gallery/images/mainimage/GALLERY-PAGE-51.jpg';
+import img2 from '../Blogs/BlogOne/images/news1.jpg';
+import img1 from '../Blogs/BlogOne/images/news2.jpg';
+
 const Welcome = () => {
     return (
         <section className="welcome-section">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        {/* <!-- About Content Start --> */}
                         <div className="welcome-content">
 
                             <div className='row mb-3'>
                                 <div className='col-12'>
                                     <h3 className="sec-title text-center"> Welcome to <span>Trauma Care</span> KOZHIKODE (TRACK)</h3>
-                                    {/* <Link className="greenbtn" to="/official">About us <i className="fa fa-arrow-right" aria-hidden="true"></i></Link> */}
                                 </div>
                                 <div className='col-12'>
                                 <p className="sec-desc text-center">Trauma Care Kozhikode (TRACK) pioneered educating “First Respondents” to shift accident victims without losing time, and without causing further injury, to Hospitals through its volunteer training camps. These volunteers are made free of legal complications which could follow. In association with the Police Department, Motor Vehicles Department & Medical Professionals, “TRACK” has been training volunteers in Basic Life Support (BLS), Road Safety & Situational Leadership since 1998.</p>
@@ -40,7 +41,6 @@ const Welcome = () => {
                            
                         </div>
                         
-                        {/* <!-- About Content End --> */}
                     </div>
                 </div>
             </div>

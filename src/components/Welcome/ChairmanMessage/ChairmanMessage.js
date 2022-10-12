@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import './ChairmanMessage.css';
 
-import Membershipbox from '../../Welcome/Membershipbox/Membershipbox';
+// import Membershipbox from '../../Welcome/Membershipbox/Membershipbox';
+import chimg from '../../../assets/images/PradipKumar.jpg';
+
 const ChairmanMessage = () => {
     return (
         <section className="ChairmanMessage-section">
@@ -18,13 +19,12 @@ const ChairmanMessage = () => {
                             Trauma Care  Kozhikode TRACK, having completed its 25 years of service and having been able to extend its support to tens of thousands of citizens in need, supported by selfless volunteers from different walks of life, from medical professionals, police officers and social leaders to common man, it is indeed my honour to have had this opportunity to be part of this unparalleled organization as one of its founding members and having had the privilege to lead a team of enthusiastic and socially committed individuals driven by passion and their sense of social responsibility
                             </p>
                             <p>As the society and its needs grow and the changing times demanding continuous revision of strategies and technology, I urge improved participation from all people – professionals, entrepreneurs, industrialists, young professionals, veteran specialists, students etc., in the services provided by TRACK, for us now and for a better tomorrow.</p>
-                            <Link to="/donations" className="quomodo-btn">Donate Now </Link>
                         </div>
                         {/* <!-- About Content End --> */}
                     </div>
                     <div className="col-lg-4">
-                    <Membershipbox />
-
+                    {/* <Membershipbox /> */}
+                    <img src={chimg} alt="" className="img-fluid"/>
                     </div>
                 </div>
             </div>

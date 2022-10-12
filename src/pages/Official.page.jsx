@@ -11,12 +11,13 @@ import Patrons from '../components/Team/Patrons/Patrons';
 import Enlightener from '../components/Team/Enlightener/Enlightener';
 import Directors from '../components/Team/Directors/Directors';
 import Officebearers from '../components/Team/Officebearers/Officebearers';
+//import pageBanner from '../assets/images/page-banner.jpg';
 
 
 const Official = () => {
     return (
         <>
-            <BannerTwo pageTitle="Official" title="Official" />
+            <BannerTwo pageTitle="Official" title="Official" bgimg={require('../assets/images/page-banner.jpg')}/>
             <MainContent />
             <AffiliationAchievements />
             

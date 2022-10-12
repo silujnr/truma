@@ -13,7 +13,7 @@ const strategies = [
         image: strategyImg1,
         tag: 'Our Mission',
         title: 'Click here to Know More',
-        link: '#'
+        link: '/official'
     },
     {
         id: 2,
@@ -27,7 +27,7 @@ const strategies = [
         image: strategyImg3,
         tag: 'The People',
         title: 'Click here to Know More',
-        link: '#'
+        link: '/official'
     }
 ];
 

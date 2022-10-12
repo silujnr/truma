@@ -46,7 +46,7 @@ const BlogOne = () => {
                         <h3 className="sec-title">
                             Upcoming News                      
                         </h3>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                          {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                     </div>
                     <div className="col-lg-2">
                         <Link to="/news" className="see-all-link">See All News</Link>
@@ -61,7 +61,7 @@ const BlogOne = () => {
                                 <div key={blog?.id} className="col-lg-6 col-md-6">
                                     <div className="news-item">
                                         <div className="post-thumb">
-                                            <img src={blog.featureImage} alt="" />
+                                            {/* <img src={blog.featureImage} alt="" /> */}
                                             {/* <Link to={blog?.link} className="cate">{blog?.category}</Link> */}
                                         </div>
                                         <div className="post-details">

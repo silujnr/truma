@@ -64,7 +64,7 @@ const FooterOne = () => {
                     <div className="col-lg-2 col-md-6">
                         {/* <!-- Navigation Menu Start --> */}
                         <aside className="widget">
-                            <h3 className="widget-title">Others</h3>
+                            <h3 className="widget-title last">&nbsp;</h3>
                             <ul>
                                 <li><Link to="/units">Units</Link></li>
                                 <li><Link to="/announcement">Announcement</Link></li>
