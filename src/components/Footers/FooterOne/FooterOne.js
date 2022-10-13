@@ -16,7 +16,7 @@ const FooterOne = () => {
                 <div className="row top-footer">
                 <div className="col-lg-4 text-white">
                     <span className="font-weight-bold">Call Us</span>
-                    <p> +91 9037701777</p>
+                    <p> +91 90377 01777</p>
                 </div>
                 <div className="col-lg-8 text-white d-lg-flex justify-content-between">
                     <div>
@@ -33,16 +33,16 @@ const FooterOne = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-4 col-md-4">
+                    <div className="col-lg-4 col-md-4 d-flex pl-0">
                     <Link className="footer-logo mb-4 d-block" to="/">
                             <img src={logo} alt="" width="100px" />
                         </Link>
-                        <p className="text-white text-left"> Trauma Care Kozhikode is an independent, non-profit organisation functioning above political, communal and economic interest. </p>
+                        <p className="text-white text-left pl-2"> Trauma Care Kozhikode is an independent, non-profit organisation functioning above political, communal and economic interest. </p>
                     </div>
                     <div className="col-lg-6 col-md-6">
                         {/* <!-- Navigation Menu Start --> */}
                         <aside className="widget">
-                            <h3 className="widget-title">Quick Menu</h3>
+                           
                             <div className="d-flex">
                             <ul className="w-50">
                             <li><Link to="/contact">Contact Us</Link></li>
@@ -64,7 +64,7 @@ const FooterOne = () => {
                     <div className="col-lg-2 col-md-6">
                         {/* <!-- Navigation Menu Start --> */}
                         <aside className="widget">
-                            <h3 className="widget-title last">&nbsp;</h3>
+                           
                             <ul>
                                 <li><Link to="/units">Units</Link></li>
                                 <li><Link to="/announcement">Announcement</Link></li>

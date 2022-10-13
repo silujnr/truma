@@ -24,6 +24,7 @@
     background: #f3f3f3;
 }
 .team-detail .designation{
+    text-align: left;
     font-size: 12px;
     line-height: 15px;
     font-weight: 400;

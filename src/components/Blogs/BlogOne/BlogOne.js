@@ -1,38 +1,22 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
 import './BlogOne.css';
-import blogOneImage from '../../../components/Blogs/BlogOne/images/news1.jpg';
-import blogTwoImage from '../../../components/Blogs/BlogOne/images/news2.jpg';
-
-
-import authorImage from '../../../assets/images/home/author.png';
-
 const blogs = [
     {
         id: 1,
-        title: 'Lorem Ipsum is simply dummy text of industry.',
-        category: 'Trauma Care',
-        abstract:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
-        author: 'Rosaline D. William',
-        authorImage: authorImage,
-        date: '14th May, 2021',
-        comments: '10 Comments',
-        featureImage: blogOneImage,
-        link: '#',
-        authorUrl: '#'
+        title: 'World Day of Remembrance',
+        category: 'Town Hall Kozhikode',
+        abstract:'WDR for road traffic victims 2022 conducted by TRACK',
+        date: '21 st November, 2022',
+       
     },
     {
         id: 2,
-        title: 'Lorem Ipsum is simply dummy text of industry.',
-        category: 'Trauma Care',
-        abstract:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
-        author: 'Rosaline D. William',
-        authorImage: authorImage,
-        date: '14th May, 2021',
-        comments: '10 Comments',
-        featureImage: blogTwoImage,
-        link: '#',
-        authorUrl: '#'
+        title: 'TRACK Magazine Publishing event',
+        category: 'Kozhikode',
+        abstract:'with participation of prominent citizens and officials',
+        date: 'December, 2022',
+       
     }
 ];
 
@@ -60,18 +44,8 @@ const BlogOne = () => {
                             return (
                                 <div key={blog?.id} className="col-lg-6 col-md-6">
                                     <div className="news-item">
-                                        <div className="post-thumb">
-                                            {/* <img src={blog.featureImage} alt="" /> */}
-                                            {/* <Link to={blog?.link} className="cate">{blog?.category}</Link> */}
-                                        </div>
                                         <div className="post-details">
-                                            {/* <Link to={blog?.authorUrl} className="author">
-                                                <img src={blog?.authorImage} alt="" />{blog?.author}
-                                            </Link> */}
-                                           
-                                           
                                             <div className="post-footer">
-                                            
                                                 <Link to="/"><i className="fa fa-calendar"></i> {blog?.date}</Link>
                                                 <Link to="/"><i className="fa fa-map-marker"></i>{blog?.category}</Link>
                                             </div>

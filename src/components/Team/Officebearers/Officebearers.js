@@ -67,7 +67,7 @@ const Officebearer = [
     },{
         id: 7,
         name: 'HEMAPALAN P',
-        designation: 'Executive Members',
+        designation: 'Executive Member',
         phone:'',
         image: f7,
         link: '/'
@@ -75,7 +75,7 @@ const Officebearer = [
     ,{
         id: 8,
         name: 'Ar. A. K. PRASANTH',
-        designation: 'Executive Members',
+        designation: 'Executive Member',
         phone:'',
         image: f8,
         link: '/'
@@ -83,7 +83,7 @@ const Officebearer = [
     ,{
         id: 9,
         name: 'Dr. K. G. ALEXANDER',
-        designation: 'Executive Members',
+        designation: 'Executive Member',
         phone:'',
         image: f9,
         link: '/'
@@ -91,7 +91,7 @@ const Officebearer = [
     ,{
         id: 10,
         name: 'Dr. PRABHAVATHI K S',
-        designation: 'Executive Members',
+        designation: 'Executive Member',
         phone:'',
         image: f10,
         link: '/'
@@ -99,7 +99,7 @@ const Officebearer = [
     ,{
         id: 11,
         name: 'P. K. KRISHNANUNNI RAJA',
-        designation: 'Executive Members',
+        designation: 'Executive Member',
         phone:'',
         image: f11,
         link: '/'
@@ -107,7 +107,7 @@ const Officebearer = [
     ,{
         id: 12,
         name: ' K. P. CHANDRAN',
-        designation: 'Executive Members',
+        designation: 'Executive Member',
         phone:'',
         image: f12,
         link: '/'
@@ -115,7 +115,7 @@ const Officebearer = [
     ,{
         id: 13,
         name: 'BALAKRISHNA ERADY T. M.',
-        designation: 'Executive Members',
+        designation: 'Executive Member',
         phone:'',
         image: f13,
         link: '/'
@@ -123,7 +123,7 @@ const Officebearer = [
     ,{
         id:14,
         name: 'GOPIRAJ C',
-        designation: 'Executive Members',
+        designation: 'Executive Member',
         phone:'',
         image: f14,
         link: '/'
@@ -131,7 +131,7 @@ const Officebearer = [
     ,{
         id: 15,
         name: 'ARUN GOPAL MENON',
-        designation: 'Executive Members',
+        designation: 'Executive Member',
         phone:'',
         image: f15,
         link: '/'

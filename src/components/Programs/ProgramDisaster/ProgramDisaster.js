@@ -57,10 +57,10 @@ const ProgramDisaster = () => {
                                 <div key={ProgramDisasters?.id} className="col-lg-3 col-md-6">
                                     <div className="team-member">
                                         <img src={ProgramDisasters?.image} alt="" />
-                                        <div className="team-detail">
+                                        {/* <div className="team-detail">
                                             <p className="designation">{ProgramDisasters?.designation}</p>
                                             <h4><Link to={ProgramDisasters?.link}>{ProgramDisasters?.name}</Link></h4>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             )

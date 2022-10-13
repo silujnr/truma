@@ -17,14 +17,14 @@ import roadsafety4 from '../TrainingPrograms/images/roadsafety/PROGRAM-ROAD-SAFE
 const TrainingProgram = [
     {
         id: 1,
-        name: 'Basic Life Support',
+        name: 'Basic Life Support Training',
         designation: 'Program',
         image: PROGRAMDISASTER1,
         link: '/'
     },
     {
         id: 2,
-        name: 'Basic Life Support',
+        name: 'Disaster Managment Training',
         designation: 'Program',
         image: PROGRAMDISASTER2,
         link: '/'
@@ -38,14 +38,14 @@ const TrainingProgram = [
     },
     {
         id: 4,
-        name: 'Road Safety Training',
+        name: 'Disaster Managment Training',
         designation: 'Program - 2',
         image: PROGRAMDISASTER4,
         link: '/'
     }
     ,
     {
-        id: 6,
+        id: 5,
         name: 'Road Safety Training',
         designation: 'Program - 3',
         image: PROGRAMDISASTER5,
@@ -54,7 +54,7 @@ const TrainingProgram = [
     ,
     {
         id: 6,
-        name: 'Traning',
+        name: 'Disaster Managment Training',
         designation: 'Program - 4',
         image: PROGRAMDISASTER6,
         link: '/'
@@ -110,7 +110,7 @@ const TrainingPrograms = () => {
                                     <div className="team-member">
                                         <img src={TrainingProgram?.image} alt="" />
                                         <div className="team-detail">
-                                            <p className="designation">{TrainingProgram?.designation}</p>
+                                           
                                             <h4><Link to={TrainingProgram?.link}>{TrainingProgram?.name}</Link></h4>
                                         </div>
                                     </div>
@@ -129,10 +129,10 @@ const TrainingPrograms = () => {
                                 <div key={Roadsafety?.id} className="col-lg-3 col-md-6">
                                     <div className="team-member">
                                         <img src={Roadsafety?.image} alt="" />
-                                        <div className="team-detail">
+                                        {/* <div className="team-detail">
                                             <p className="designation">{Roadsafety?.designation}</p>
                                             <h4><Link to={Roadsafety?.link}>{Roadsafety?.name}</Link></h4>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             )

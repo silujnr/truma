@@ -24,7 +24,15 @@ const ChairmanMessage = () => {
                     </div>
                     <div className="col-lg-4">
                     {/* <Membershipbox /> */}
-                    <img src={chimg} alt="" className="img-fluid"/>
+                    <div class="team-member">
+    <div class="team-detail">
+    <img src={chimg} alt="" className="img-fluid mb-2"/>
+        <p class="designation">Commandent Retd.</p>
+        <h4><a href="/">Adv. Pradip Kumar C. M.</a></h4>
+        </div>
+        </div>
+                    
+
                     </div>
                 </div>
             </div>
@@ -33,3 +41,4 @@ const ChairmanMessage = () => {
 };
 
 export default ChairmanMessage;
+

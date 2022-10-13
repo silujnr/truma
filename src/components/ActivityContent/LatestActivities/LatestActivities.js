@@ -14,13 +14,6 @@ const LatestActivities = () => {
                         {/* <!-- About Content Start --> */}
                         <div className="ab-content">
                             <div className="sub-title"><span className="border-left"></span>Activities</div>
-                            <h3 className="sec-title">
-                            Latest Activities
-                            </h3>
-
-
-
-
                             
                            <ul className="latestactivities">
 

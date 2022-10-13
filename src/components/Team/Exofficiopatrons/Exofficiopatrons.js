@@ -23,7 +23,7 @@ const Exofficiopatron = [
     },
     {
         id: 3,
-        name: 'Adv. Pradip Kumar C. M.',
+        name: 'Dr. NARASIMHUGARI T. L. REDDY IAS',
         designation: 'District Collector Kozhikode',
         image: f3,
         link: '/'
