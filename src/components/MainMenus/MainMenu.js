@@ -48,8 +48,8 @@ const menus = [
     },
     {
         id: 8,
-        linkText: 'News',
-        link: '/news'
+        linkText: 'Milestone',
+        link: '/milestone'
     },
     {
         id: 9,

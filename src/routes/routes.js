@@ -9,10 +9,8 @@ const Memberships = lazy(() => import('../pages/Memberships.page'));
 const Donations = lazy(() => import('../pages/Donations.page'));
 const Gallery = lazy(() => import('../pages/Gallery.page'));
 const Contact = lazy(() => import('../pages/Contact.page'));
-
 const About = lazy(() => import('../pages/About.page'));
-
-const News = lazy(() => import('../pages/News.page'));
+const Milestone = lazy(() => import('../pages/Milestone.page'));
 const SingleNews = lazy(() => import('../pages/SingleNews.page'));
 const NotFound = lazy(() => import('../pages/Page404.page'));
 const Announcement = lazy(() => import('../pages/Announcement.page'));
@@ -101,10 +99,10 @@ const routes = [
         theme: "theme-1"
     },
     {
-        name: 'News',
-        path: '/news',
+        name: 'Milestone',
+        path: '/milestone',
         exact: true,
-        component: News,
+        component: Milestone,
         authentication: false,
         theme: "theme-1"
     },
