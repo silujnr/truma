@@ -8,7 +8,7 @@ import Membershippagecontent from '../components/membershippage/Membershippageco
 const Memberships = () => {
     return (
         <>
-            <BannerTwo pageTitle="Memberships" title="Memberships" />
+            <BannerTwo pageTitle="Memberships" title="Memberships" bgimg={require('../assets/images/MEMBERSHIPS.jpg')}/>
             <div className="container">
                 <Membershippagecontent />
             <div className="contact-page-form mb-5">

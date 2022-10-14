@@ -15,7 +15,7 @@ const contactInfo = {
 const Contact = () => {
     return (
         <>
-            <BannerTwo pageTitle="Contact Us" title="Contact" />
+            <BannerTwo pageTitle="Contact Us" title="Contact" bgimg={require('../assets/images/contact.jpg')}/>
             <section className="contact-page-section">
                 <div className="container">
                     <div className="row">

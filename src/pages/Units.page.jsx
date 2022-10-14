@@ -5,7 +5,7 @@ import Unitmaincontent from '../components/unitpage/Unitmaincontent/Unitmaincont
 const Units = () => {
     return (
         <>
-            <BannerTwo pageTitle="Units" title="Units" />
+            <BannerTwo pageTitle="Units" title="Units" bgimg={require('../assets/images/page-banner.jpg')} />
             <Unitmaincontent />
         </>
     );

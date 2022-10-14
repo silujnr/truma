@@ -7,7 +7,7 @@ import AnnouncementsNotices from '../components/DonationsContent/AnnouncementsNo
 const Announcement = () => {
     return (
         <>
-            <BannerTwo pageTitle="Announcement" title="Announcement" />
+            <BannerTwo pageTitle="Announcement" title="Announcement" bgimg={require('../assets/images/page-banner.jpg')} />
             <DonationsContent />
             <AnnouncementsNotices />
            

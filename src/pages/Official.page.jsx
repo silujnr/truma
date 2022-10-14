@@ -17,7 +17,7 @@ import Officebearers from '../components/Team/Officebearers/Officebearers';
 const Official = () => {
     return (
         <>
-            <BannerTwo pageTitle="Official" title="Official" bgimg={require('../assets/images/page-banner.jpg')}/>
+            <BannerTwo pageTitle="Official" title="Official" bgimg={require('../assets/images/OFFICIAL.jpg')}/>
             <MainContent />
             <AffiliationAchievements />
             

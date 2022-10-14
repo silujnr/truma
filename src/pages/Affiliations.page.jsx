@@ -5,7 +5,7 @@ import BannerTwo from '../components/Banners/BannerTwo/BannerTwo';
 const Affiliations = () => {
     return (
         <>
-            <BannerTwo pageTitle="Affiliations" title="Affiliations" />
+            <BannerTwo pageTitle="Affiliations" title="Affiliations" bgimg={require('../assets/images/page-banner.jpg')} />
             
         </>
     );

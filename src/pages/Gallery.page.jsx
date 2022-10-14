@@ -7,7 +7,7 @@ import Activitypictures from '../components/Gallery/Activitypictures/Activitypic
 const Gallery = () => {
     return (
         <>
-            <BannerTwo pageTitle="Gallery" title="Gallery" />
+            <BannerTwo pageTitle="Gallery" title="Gallery" bgimg={require('../assets/images/GALLERY.jpg')} />
             {/* <Latestevent />
             <Meetingpictures /> */}
            <Activitypictures />

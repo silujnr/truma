@@ -6,7 +6,7 @@ import AboutpageContent from '../components/Abouts/AboutpageContent/AboutpageCon
 const About = () => {
     return (
         <>
-            <BannerTwo pageTitle="About Us" title="About" />
+            <BannerTwo pageTitle="About Us" title="About" bgimg={require('../assets/images/page-banner.jpg')}/>
             <AboutpageContent />
         </>
     );

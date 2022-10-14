@@ -7,7 +7,7 @@ import Mom from '../components/ActivityContent/Mom/Mom';
 const Activities = () => {
     return (
         <>
-            <BannerTwo pageTitle="Activities" title="Activities" />
+            <BannerTwo pageTitle="Activities" title="Activities" bgimg={require('../assets/images/ACTIVITIES.jpg')} />
             <LatestActivities />
             <Mom />
         </>
