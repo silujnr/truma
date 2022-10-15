@@ -3610,4 +3610,5 @@ h3.sec-title {
     right: 30px;
     border: 3px solid #fff;
     border-radius: 50%;
+    z-index:99;
 }
