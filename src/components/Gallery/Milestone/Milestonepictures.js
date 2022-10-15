@@ -9,7 +9,7 @@ function Milestonepictures () {
    
     <div className="PortfolioPage pt-5 pb-5">
    
-       <h2 className="text-center heading">Milestone</h2>
+       <h2 className="text-center heading">Milestone's</h2>
         <div className="ListPhotos">
           <Gallery
             images={Milestoneimage}

@@ -3601,3 +3601,13 @@ h3.sec-title {
     color: #dc3545!important;
     font-size: 13px;
 }
+
+.silverjubileebadgeimg {
+    position: fixed;
+    width: 120px;
+    height: auto;
+    bottom: 30px;
+    right: 30px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}

@@ -4,7 +4,7 @@ import Milestonepictures from '../components/Gallery/Milestone/Milestonepictures
 const Milestone = () => {
     return (
         <>
-            <BannerTwo pageTitle="Milestone" title="Milestone" />
+            <BannerTwo pageTitle="Milestone's" title="Milestone's" bgimg={require('../assets/images/page-banner.jpg')} />
             <Milestonepictures />
         </>
     );

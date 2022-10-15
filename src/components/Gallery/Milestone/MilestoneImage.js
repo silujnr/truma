@@ -14,14 +14,14 @@ import mainimg13 from "../Milestone/images/mainimage/13-min.JPG";
 import mainimg14 from "../Milestone/images/mainimage/14-min.JPG";
 import mainimg15 from "../Milestone/images/mainimage/15-min.JPG";
 import mainimg16 from "../Milestone/images/mainimage/16-min.JPG";
-import mainimg17 from "../Milestone/images/mainimage/17-min.JPG";
+//import mainimg17 from "../Milestone/images/mainimage/17-min.JPG";
 import mainimg18 from "../Milestone/images/mainimage/18-min.JPG";
 import mainimg19 from "../Milestone/images/mainimage/19-min.JPG";
 import mainimg20 from "../Milestone/images/mainimage/20-min.JPG";
-import mainimg21 from "../Milestone/images/mainimage/21-min.JPG";
+//import mainimg21 from "../Milestone/images/mainimage/21-min.JPG";
 import mainimg22 from "../Milestone/images/mainimage/22-min.jpg";
 import mainimg23 from "../Milestone/images/mainimage/23-min.jpg";
-import mainimg24 from "../Milestone/images/mainimage/24-min.jpg";
+//import mainimg24 from "../Milestone/images/mainimage/24-min.jpg";
 import mainimg25 from "../Milestone/images/mainimage/25-min.jpg";
 import mainimg26 from "../Milestone/images/mainimage/26-min.jpg";
 import mainimg27 from "../Milestone/images/mainimage/27-min.jpg";
@@ -53,7 +53,7 @@ import mainimg52 from "../Milestone/images/mainimage/52-min.jpg";
 import mainimg53 from "../Milestone/images/mainimage/53-min.jpg";
 import mainimg54 from "../Milestone/images/mainimage/54-min.jpg";
 import mainimg55 from "../Milestone/images/mainimage/55-min.jpg";
-import mainimg56 from "../Milestone/images/mainimage/56-min.jpg";
+//import mainimg56 from "../Milestone/images/mainimage/56-min.jpg";
 import mainimg57 from "../Milestone/images/mainimage/57-min.jpg";
 import mainimg58 from "../Milestone/images/mainimage/58-min.jpg";
 import mainimg59 from "../Milestone/images/mainimage/59-min.jpg";
@@ -77,14 +77,14 @@ import thumb13 from "../Milestone/images/thumb/13-min.JPG";
 import thumb14 from "../Milestone/images/thumb/14-min.JPG";
 import thumb15 from "../Milestone/images/thumb/15-min.JPG";
 import thumb16 from "../Milestone/images/thumb/16-min.JPG";
-import thumb17 from "../Milestone/images/thumb/17-min.JPG";
+//import thumb17 from "../Milestone/images/thumb/17-min.JPG";
 import thumb18 from "../Milestone/images/thumb/18-min.JPG";
 import thumb19 from "../Milestone/images/thumb/19-min.JPG";
 import thumb20 from "../Milestone/images/thumb/20-min.JPG";
-import thumb21 from "../Milestone/images/thumb/21-min.JPG";
+//import thumb21 from "../Milestone/images/thumb/21-min.JPG";
 import thumb22 from "../Milestone/images/thumb/22-min.jpg";
 import thumb23 from "../Milestone/images/thumb/23-min.jpg";
-import thumb24 from "../Milestone/images/thumb/24-min.jpg";
+//import thumb24 from "../Milestone/images/thumb/24-min.jpg";
 import thumb25 from "../Milestone/images/thumb/25-min.jpg";
 import thumb26 from "../Milestone/images/thumb/26-min.jpg";
 import thumb27 from "../Milestone/images/thumb/27-min.jpg";
@@ -116,7 +116,7 @@ import thumb52 from "../Milestone/images/thumb/52-min.jpg";
 import thumb53 from "../Milestone/images/thumb/53-min.jpg";
 import thumb54 from "../Milestone/images/thumb/54-min.jpg";
 import thumb55 from "../Milestone/images/thumb/55-min.jpg";
-import thumb56 from "../Milestone/images/thumb/56-min.jpg";
+//import thumb56 from "../Milestone/images/thumb/56-min.jpg";
 import thumb57 from "../Milestone/images/thumb/57-min.jpg";
 import thumb58 from "../Milestone/images/thumb/58-min.jpg";
 import thumb59 from "../Milestone/images/thumb/59-min.jpg";
@@ -206,11 +206,6 @@ const MilestoneImages = [
         caption: "",
       },
       {
-        src: mainimg17,
-        thumbnail: thumb17,
-        caption: "",
-      },
-      {
         src: mainimg18,
         thumbnail: thumb18,
         caption: "",
@@ -222,11 +217,9 @@ const MilestoneImages = [
         src: mainimg20,
         thumbnail: thumb20,
         caption: "",
-      },{
-        src: mainimg21,
-        thumbnail: thumb21,
-        caption: "",
-      },{
+      },
+     
+      {
         src: mainimg22,
         thumbnail: thumb22,
         caption: "",
@@ -234,11 +227,8 @@ const MilestoneImages = [
         src: mainimg23,
         thumbnail: thumb23,
         caption: "",
-      },{
-        src: mainimg24,
-        thumbnail: thumb24,
-        caption: "",
-      },{
+      },
+      {
         src: mainimg25,
         thumbnail: thumb25,
         caption: "",
@@ -362,11 +352,9 @@ const MilestoneImages = [
         src: mainimg55,
         thumbnail: thumb55,
         caption: "",
-      },{
-        src: mainimg56,
-        thumbnail: thumb56,
-        caption: "",
-      },{
+      },
+   
+      {
         src: mainimg57,
         thumbnail: thumb57,
         caption: "",
