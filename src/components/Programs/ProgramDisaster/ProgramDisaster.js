@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './ProgramDisaster.css';
 import PROGRAMDISASTER1 from '../ProgramDisaster/images/PROGRAM-DISASTER-1.jpg';
 import PROGRAMDISASTER2 from '../ProgramDisaster/images/PROGRAM-DISASTER-2.jpg';
@@ -12,28 +12,24 @@ const ProgramDisasters = [
         name: 'Disaster 1',
         designation: 'Program',
         image: PROGRAMDISASTER1,
-        link: '/'
     },
     {
         id: 2,
         name: 'Disaster 2',
         designation: 'Program',
         image: PROGRAMDISASTER2,
-        link: '/'
     },
     {
         id: 3,
         name: 'Disaster 3',
         designation: 'Program',
         image: PROGRAMDISASTER3,
-        link: '/'
     },
     {
         id: 4,
         name: 'Disaster 4',
         designation: 'Program',
         image: PROGRAMDISASTER4,
-        link: '/'
     }
 ];
 
