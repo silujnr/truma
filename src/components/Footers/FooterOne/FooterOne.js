@@ -55,7 +55,7 @@ const FooterOne = () => {
                                 <li><Link to="/memberships">Memberships</Link></li>
                                 <li><Link to="/donations">Donations</Link></li>
                                 <li><Link to="/gallery">Gallery</Link></li>
-                                <li><Link to="/news">News</Link></li>
+                                <li><Link to="/milestone">Milestone</Link></li>
                                 
                             </ul>
                             </div>
@@ -92,7 +92,7 @@ const FooterOne = () => {
                            <div>
                             <span className="text-white mr-2">Follow Us:</span>
                                 <ul>
-                                    <li><Link to="/"> <img src={facebookicon} alt="" /></Link></li>
+                                    <li><Link to="https://www.facebook.com/profile.php?id=100068389803162"> <img src={facebookicon} alt="" /></Link></li>
                                     <li><Link to="/"> <img src={blogicon} alt="" /></Link></li>
                                     <li><Link to="/"> <img src={linkedinicon} alt="" /></Link></li>
                                     <li><Link to="/"> <img src={youtubeicon} alt="" /></Link></li>

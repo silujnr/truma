@@ -7,7 +7,7 @@ const blogs = [
         title: 'World Day of Remembrance',
         category: 'Town Hall Kozhikode',
         abstract:'WDR for road traffic victims 2022 conducted by TRACK',
-        date: '21 st November, 2022',
+        date: '20th November, 2022',
        
     },
     {
@@ -33,7 +33,7 @@ const BlogOne = () => {
                           {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                     </div>
                     <div className="col-lg-2">
-                        <Link to="/news" className="see-all-link">See All News</Link>
+                        <Link to="/milestone" className="see-all-link"> Our Milestones</Link>
                     </div>
                 </div>
                 <div className="row">
