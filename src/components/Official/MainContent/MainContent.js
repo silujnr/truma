@@ -151,37 +151,6 @@ and these 100 people were given identity cards.</p>
 </div>
 
 </div>
-
-
-
-                {/* <div className="row">
-                    <div className="col-lg-4 col-md-4">
-                       
-                        <div className="skill-content pl-0">
-                            <div className="sub-title"><span className="border-left"></span>Official</div>
-                            <h3 className="sec-title">The Beginning</h3>
-                            <p>Initiated by several notable personalities from different walks of life who had a common goal of supporting a social cause came together and TRAUMA CARE – Kozhikode, popularly known as TRACK was formed on the1st day of April 1998. The very first Volunteers Meet was then organized within a short period of time, on the 15th of February 1999 at the Kozhikode Town Hall, inaugurated by the Worshipful Mayor of Kozhikode Corporation.</p>
-                            
-                        </div>
-                       
-                    </div>
-                    <div className="col-lg-8 col-md-8">
-                      
-                        <div className="skill-thumb">
-                           
-                            <img className='shadow' src={thebeginningImg} alt="" />
-                         
-                        </div>
-                       
-                    </div>
-                   
-                </div> */}
-                {/* <div className="row mt-5">
-                <div  className="col-lg-12 col-md-12">
-                    <h3 className="sec-title"> Registration</h3>
-                    <p>TRAUMA CARE – Kozhikode (TRACK), an independent, non-profit organisation functioning above political, communal and economic interest. The Society was set up in 1998, registered under the Societies Registration Act XXI of 1860 No. 384/1998, with the support of voluntary organizations like Rotary Club, Lions Club, IMA etc, officers of the Kerala Motor Vehicle Department, Police Officers and a group of good Samaritans. </p>
-                    </div>
-                </div> */}
             </div>
         </section>
     );
