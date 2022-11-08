@@ -59,7 +59,7 @@ const Officebearer = [
 {
         id: 5,
         name: ' K. P. CHANDRAN',
-        designation: 'Joint Secretaries',
+        designation: 'Joint Secretary',
         phone:'',
         image: f12,
         link: '/'
@@ -67,7 +67,7 @@ const Officebearer = [
     {
         id: 6,
         name: 'ARUN GOPAL MENON',
-        designation: 'Joint Secretaries',
+        designation: 'Joint Secretary',
         phone:'',
         image: f15,
         link: '/'
