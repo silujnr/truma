@@ -48,7 +48,7 @@ const FooterOne = () => {
                             <ul className="w-50">
                             <li><Link to="/contact">Contact Us</Link></li>
                                 <li><Link to="/about">About Us</Link></li>
-                                <li><Link to="/programs">Programes</Link></li>
+                                <li><Link to="/programs">Programs</Link></li>
                                 
                             </ul>
                             <ul className="w-50">
