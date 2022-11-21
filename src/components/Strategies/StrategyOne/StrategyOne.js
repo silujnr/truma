@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';import React from 'react'
 import './strategyOne.css';
-import arrowImg from '../../../components/Strategies/StrategyOne/images/more-arrow-circle.png';
+import arrowImg from '../../../assets/images/more-arrow-circle.png';
 
-import strategyImg1 from '../../../components/Strategies/StrategyOne/images/mission.jpg';
-import strategyImg2 from '../../../components/Strategies/StrategyOne/images/activities.jpg';
-import strategyImg3 from '../../../components/Strategies/StrategyOne/images/people.jpg';
+import strategyImg1 from '../../../assets/images/mission.jpg';
+import strategyImg2 from '../../../assets/images/activities-home.jpg';
+import strategyImg3 from '../../../assets/images/people.jpg';
 
 
 const strategies = [

@@ -7,7 +7,7 @@ import linkedinicon from '../../../components/Footers/FooterOne/images/linkedin-
 import youtubeicon from '../../../components/Footers/FooterOne/images/youtube-icon.png';
 import twittericon from '../../../components/Footers/FooterOne/images/twitter-icon.png';
 
-import silverjubileebadge from '../FooterOne/images/silver-jubilee-badge.png';
+import silverjubileebadge from '../../../components/Footers/FooterOne/images/silver-jubilee-badge.png';
 const FooterOne = () => {
     return (
         <footer className="footer-01">
