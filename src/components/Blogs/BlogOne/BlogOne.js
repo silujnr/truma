@@ -33,7 +33,7 @@ const BlogOne = () => {
                           {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                     </div>
                     <div className="col-lg-2">
-                        <Link to="/milestone" className="see-all-link"> Our Milestones</Link>
+                        <Link to="" className="see-all-link"> See all News</Link>
                     </div>
                 </div>
                 <div className="row">
@@ -46,7 +46,7 @@ const BlogOne = () => {
                                     <div className="news-item">
                                         <div className="post-details">
                                             <div className="post-footer">
-                                                <Link to="/"><i className="fa fa-calendar"></i> {blog?.date}</Link>
+                                                <Link to="/" style="flex-none"><i className="fa fa-calendar"></i> {blog?.date}</Link>
                                                 <Link to="/"><i className="fa fa-map-marker"></i>{blog?.category}</Link>
                                             </div>
                                             <h4>
