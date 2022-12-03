@@ -46,7 +46,7 @@ const BlogOne = () => {
                                     <div className="news-item">
                                         <div className="post-details">
                                             <div className="post-footer">
-                                                <Link to="/" style="flex-none"><i className="fa fa-calendar"></i> {blog?.date}</Link>
+                                                <Link to="/" className='flex-none'><i className="fa fa-calendar"></i> {blog?.date}</Link>
                                                 <Link to="/"><i className="fa fa-map-marker"></i>{blog?.category}</Link>
                                             </div>
                                             <h4>
