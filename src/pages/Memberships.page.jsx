@@ -1,7 +1,8 @@
 import React from 'react'
 import BannerTwo from '../components/Banners/BannerTwo/BannerTwo';
-import MembershipForm from '../components/MembershipForm/MembershipForm';
+// import MembershipForm from '../components/MembershipForm/MembershipForm';
 import Membershippagecontent from '../components/membershippage/Membershippagecontent/Membershippagecontent';
+import ContactForm from '../components/ContactForm/ContactForm';
 
 
 
@@ -13,7 +14,8 @@ const Memberships = () => {
                 <Membershippagecontent />
             <div className="contact-page-form mb-5">
                                 {/* Contact Form  */}
-                                <MembershipForm />
+                                {/* <MembershipForm /> */}
+                                <ContactForm />
                             </div>
             </div>
         </>

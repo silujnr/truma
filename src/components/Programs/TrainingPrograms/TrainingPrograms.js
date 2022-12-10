@@ -24,21 +24,21 @@ const TrainingProgram = [
     },
     {
         id: 2,
-        name: 'Disaster Managment Training',
+        name: 'Disaster Management Training Practical',
         designation: 'Program',
         image: PROGRAMDISASTER2,
         link: '/'
     },
     {
         id: 3,
-        name: 'Road Safety Training',
+        name: 'Situational Leadership Training',
         designation: 'Program - 1',
         image: PROGRAMDISASTER3,
         link: '/'
     },
     {
         id: 4,
-        name: 'Disaster Managment Training',
+        name: 'Disaster Management Training Practical',
         designation: 'Program - 2',
         image: PROGRAMDISASTER4,
         link: '/'
@@ -54,7 +54,7 @@ const TrainingProgram = [
     ,
     {
         id: 6,
-        name: 'Disaster Managment Training',
+        name: 'Disaster Management Training',
         designation: 'Program - 4',
         image: PROGRAMDISASTER6,
         link: '/'

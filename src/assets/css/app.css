@@ -3613,3 +3613,13 @@ h3.sec-title {
     z-index:99;
 }
 .flex-none{flex:none}
+
+.contact-from span {
+    display: none;
+    text-align: center;}
+
+    .contact-from span.visible {
+        display: block;
+        color:green;font-size:16px;
+        text-align:center ;width:100%;
+    }

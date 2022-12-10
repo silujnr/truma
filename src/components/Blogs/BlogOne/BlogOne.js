@@ -13,9 +13,9 @@ const blogs = [
     {
         id: 2,
         title: 'TRACK Magazine Publishing event',
-        category: 'Kozhikode',
+        category: 'Alakapuri Hall, Kozhikode',
         abstract:'with participation of prominent citizens and officials',
-        date: 'December, 2022',
+        date: '20th December, 2022',
        
     }
 ];
@@ -46,11 +46,11 @@ const BlogOne = () => {
                                     <div className="news-item">
                                         <div className="post-details">
                                             <div className="post-footer">
-                                                <Link to="/" className='flex-none'><i className="fa fa-calendar"></i> {blog?.date}</Link>
-                                                <Link to="/"><i className="fa fa-map-marker"></i>{blog?.category}</Link>
+                                                <span className='flex-none mr-2'><i className="fa fa-calendar"></i> {blog?.date}</span>
+                                                <span><i className="fa fa-map-marker mr-2"></i>{blog?.category}</span>
                                             </div>
-                                            <h4>
-                                                <Link to={blog?.link}>{blog?.title}</Link>
+                                            <h4 className='text-dark'>
+                                                {blog?.title}
                                             </h4>
                                             <p>{blog?.abstract}</p>
                                         </div>

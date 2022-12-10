@@ -21,7 +21,7 @@ const ContactSidebar = ({ contactInfo }) => {
             <div className="contct-box">
                 <i className="fa fa-map-marker"></i>
                 <h3>Our Location</h3>
-                <p class="text-left">
+                <p className="text-left">
                     {contactInfo.locationOne}<br />
                     {contactInfo.locationTwo}
                 </p>

@@ -52,10 +52,10 @@ const FooterOne = () => {
                                 
                             </ul>
                             <ul className="w-50">
-                                <li><Link to="/memberships">Memberships</Link></li>
+                                <li><Link to="/milestone">Milestone</Link></li>
                                 <li><Link to="/donations">Donations</Link></li>
                                 <li><Link to="/gallery">Gallery</Link></li>
-                                <li><Link to="/milestone">Milestone</Link></li>
+                                <li><Link to="/memberships">Memberships</Link></li>
                                 
                             </ul>
                             </div>
@@ -68,7 +68,6 @@ const FooterOne = () => {
                            
                             <ul>
                                 <li><Link to="/units">Units</Link></li>
-                                <li><Link to="/announcement">Announcement</Link></li>
                                 <li><Link to="/Official">Official</Link></li>
                                 <li><Link to="/activities">Activities</Link></li>
                             </ul>

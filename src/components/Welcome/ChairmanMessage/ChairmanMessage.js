@@ -22,11 +22,11 @@ const ChairmanMessage = () => {
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div classNameˀ="team-member">
-                            <div classNameˀ="team-detail">
+                        <div className="team-member">
+                            <div className="team-detail">
                                 <img src={chimg} alt="" className="img-fluid mb-2" />
-                                <p classNameˀ="designation">Commandent Retd.</p>
-                                <h4><a href="/">Adv. Pradip Kumar C. M.</a></h4>
+                                <p className="designation">Commandent Retd.</p>
+                                <h4>Adv. Pradip Kumar C. M.</h4>
                             </div>
                         </div>
 
