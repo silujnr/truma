@@ -47,7 +47,7 @@ const FooterOne = () => {
                             <div className="d-flex">
                             <ul className="w-50">
                             <li><Link to="/contact">Contact Us</Link></li>
-                                <li><Link to="/about">About Us</Link></li>
+                                <li><Link to="/official">About Us</Link></li>
                                 <li><Link to="/programs">Programs</Link></li>
                                 
                             </ul>

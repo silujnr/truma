@@ -15,7 +15,7 @@ const blogs = [
         title: 'TRACK Magazine Publishing event',
         category: 'Alakapuri Hall, Kozhikode',
         abstract:'with participation of prominent citizens and officials',
-        date: '20th December, 2022',
+        date: '29th December, 2022',
        
     }
 ];

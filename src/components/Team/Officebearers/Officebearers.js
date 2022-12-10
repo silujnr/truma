@@ -207,7 +207,7 @@ const Officebearers = () => {
     return (
         <section className="team-section">
             <div className="container">
-            <h4>Current Office Bearer</h4>
+            <h4>Current Office Bearers</h4>
                 <div className="row">
                     {
                         Officebearer?.map(Officebearer => {
