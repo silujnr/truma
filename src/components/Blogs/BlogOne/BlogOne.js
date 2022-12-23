@@ -27,13 +27,14 @@ const BlogOne = () => {
             <div className="container">
                 <div className="row mb-4">
                     <div className="col-lg-10 text-left">
-                        <h3 className="sec-title">
+                        <h3 className="sec-title mb-2">
                             Upcoming News                      
                         </h3>
                           {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
+                                            <Link to="" className="see-all-link"> See all News</Link>
+
                     </div>
                     <div className="col-lg-2">
-                        <Link to="" className="see-all-link"> See all News</Link>
                     </div>
                 </div>
                 <div className="row">
