@@ -15,7 +15,7 @@ const SingleNews = lazy(() => import('../pages/SingleNews.page'));
 const NotFound = lazy(() => import('../pages/Page404.page'));
 const Announcement = lazy(() => import('../pages/Announcement.page'));
 const Affiliations = lazy(() => import('../pages/Affiliations.page'));
-const OfficeBearers = lazy(() => import('../pages/OfficeBearers.page'));
+const Researchpolicy = lazy(() => import('../pages/Researchpolicy.page'));
 
 const routes = [
     {
@@ -132,10 +132,10 @@ const routes = [
         theme: "theme-1"
     },
     {
-        name:'OfficeBearers',
-        path:'/officeBearers',
+        name:'Researchpolicy',
+        path:'/researchpolicy',
         exact: true,
-        component: OfficeBearers,
+        component: Researchpolicy,
         authentication: false,
         theme: "theme-1"
     },{
