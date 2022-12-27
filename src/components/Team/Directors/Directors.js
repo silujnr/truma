@@ -2,7 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import '../team.css';
 import f1 from '../../Team/Directors/images/1-a-akbar-crop.jpg';
-import f2 from '../../Team/Directors/images/2-Dr-V-R-Rajendran-Medical-College-Principal-crop.jpg';
+// import f2 from '../../Team/Directors/images/2-Dr-V-R-Rajendran-Medical-College-Principal-crop.jpg';
+ import f2 from '../../Team/Directors/images/E-V-GOPI.jpg';
 import f3 from '../../Team/Directors/images/3.-Regional-Transport-Officer.jpg';
 
 const Director = [
@@ -15,7 +16,7 @@ const Director = [
     },
     {
         id: 2,
-        name: 'Dr. V. R. Rajendran ',
+        name: 'E V GOPI',
         designation: 'Principal Medical College (Kozhikode)',
         image: f2,
         link: '/'
