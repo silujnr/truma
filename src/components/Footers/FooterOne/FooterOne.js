@@ -44,11 +44,12 @@ const FooterOne = () => {
                         {/* <!-- Navigation Menu Start --> */}
                         <aside className="widget">
                            
-                            <div className="d-flex">
+                         <div className="d-flex">
                             <ul className="w-50">
                             <li><Link to="/contact">Contact Us</Link></li>
                                 <li><Link to="/official">About Us</Link></li>
                                 <li><Link to="/programs">Programs</Link></li>
+                                <li><Link to="/researchpolicy">Research and Policy Wing</Link></li>
                                 
                             </ul>
                             <ul className="w-50">
