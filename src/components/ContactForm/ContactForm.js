@@ -10,9 +10,9 @@ const ContactForm = () => {
     const submit = () => {
         if (name && email && phone && subject && message) {
 
-            const serviceId = 'service_exiiqwk';
-            const templateId = 'template_lsyocil';
-            const userId = 'fdnD8Hz-tokK0vpu_';
+            const serviceId = 'service_fbjsf3c';
+            const templateId = 'template_3n1du9i';
+            const userId = 'l0d9Veo2uTI_jCwL9';
             const templateParams = {
                 name,
                 email,
